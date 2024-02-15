@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <h1>Restaurant Menu</h1>
+    <div id="menu">
+        <section id="menu-categories">
+            <!-- Menu categories will be dynamically generated here -->
+        </section>
+    </div>
+    <div id="order-summary">
+        <h2>Order Summary</h2>
+        <ul id="order-items">
+            <!-- Order items will be dynamically generated here -->
+        </ul>
+        <div id="order-details">
+            <label for="table-number">Table Number:</label>
+            <input type="number" id="table-number" min="1">
+            <label for="people-count">Number of People:</label>
+            <input type="number" id="people-count" min="1">
+            <label for="sales-tax">Sales Tax Rate (%):</label>
+            <input type="number" id="sales-tax" min="0" max="100">
+            <label for="tip">Tip (% or $):</label>
+            <input type="text" id="tip">
+            <button id="place-order">Place Order</button>
+        </div>
+    </div>
+    <script src="restaurant.js"></script>
+</body>
+</html>

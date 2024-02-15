@@ -1,0 +1,38 @@
+.flex-container {
+    background-color: rgb(25, 174, 243);
+    display: flex;
+    color: aliceblue;
+    padding-left: 50%;
+
+}
+.flex-box {
+    background-color: brown;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.flex-box{
+    background-color:brown;
+    padding: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:white;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(170, 45, 45, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+  .flex-footer {
+    background-color: rgb(5, 139, 61);
+    display: flex;
+    color: aliceblue;
+    padding-left: 50%;
+
+}
